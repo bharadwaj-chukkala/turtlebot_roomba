@@ -102,7 +102,7 @@ ros2 launch turtlebot_roomba walker.launch.py enable_recoring:=false
 
 #### cpplint
 
-Change to the root directory of the package, ```/beginner_tutorials```, and run:
+Change to the root directory of the package, ```/turtlebot3_roomba```, and run:
 ```
 cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order ./src/*.cpp ./include/beginner_tutorials/*.hpp > ./results/cpplint.txt
 ```
@@ -111,7 +111,7 @@ The results of running ```cpplint``` can be found in ```/results/cpplint.txt```.
 
 #### cppcheck
 
-Change to the root directory of the package, ```/beginner_tutorials```, and run:
+Change to the root directory of the package, ```/turtlebot3_roomba```, and run:
 ```
 cppcheck --enable=all --std=c++17 ./src/*.cpp ./include/beginner_tutorials/*.hpp --suppress=missingIncludeSystem --suppress=unmatchedSuppression --suppress=unusedFunction --suppress=missingInclude --suppress=useInitializationList > results/cppcheck.txt
 ```
