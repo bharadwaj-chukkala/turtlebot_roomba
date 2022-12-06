@@ -1,6 +1,6 @@
 /**
  * @file walker.hpp
- * @author your name (you@domain.com)
+ * @author Bharadwaj Chukkala (bchukkal@umd.edu)
  * @brief 
  * @version 0.1
  * @date 2022-12-05
